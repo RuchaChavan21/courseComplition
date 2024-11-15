@@ -1,0 +1,16 @@
+[package]
+name = "CourseTracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+CourseTracker = '0x5af00c798bc6f94b4e36ab12f5c082b826382f6086d7351b012ea0cc0242d1f4'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
